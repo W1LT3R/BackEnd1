@@ -12,9 +12,9 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#" title="Home" alt="Home">Home</a></li>
-				<li><a href="#" title="Sobre" alt="Sobre">Sobre</a></li>
-				<li><a href="#" title="Contato" alt="Contato">Contato</a></li>
+				<li><a href="index.php" title="Home" alt="Home">Home</a></li>
+				<li><a href="dona_rita.php" title="Sobre" alt="Sobre">Sobre</a></li>
+				<li><a href="contato.php" title="Contato" alt="Contato">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -36,7 +36,7 @@
                 <h2><?=$value['prato'];?></h2>
 				<a href="#"><img src=<?=$value['imagem'];?> width="200px" height="150px"></a>
 				<p><?=$value['descricao'];?><br>Tamanhos:<br>Média - R$<?=$value['preco_m'];?><br>Grande - R$<?=$value['preco_g'];?><br><br></p>
-				<h3>Peça AGORA! Ligue: 11 98765-4321</h3>
+				<h3>Peça AGORA!<br>Fone / WhatsApp: (11) 98765-4321</h3>
 			</article>
 			<?php
                     }
@@ -54,7 +54,7 @@
                     if($value['id'] != $id){
 			?>
 			<article>
-				<h2><?=$value['prato'];?></h2>
+				<a href="detalhe_prato.php?id=<?=$value['id'];?>"><h2><?=$value['prato'];?></a></h2>
 	    	</article>
 			<?php
                     }
@@ -62,7 +62,7 @@
 			?>
 			
 		</section>
-		<!--suport -->
+
         <article class="main_suport">
             <div class="main_suport_content">
                 <header>
@@ -76,11 +76,11 @@
                 </form>
             </div>
         </article>
-        <!--3ª dobra-->
+
 	</main>
 
 	<footer>
-	<p>Desenvolvido por Wilter da Silva Ferreira</p>
+	<p><center>Desenvolvido por Wilter da Silva Ferreira</center></p>
 	</footer>
 </body>
 </html>

@@ -29,7 +29,7 @@ li a{
     display: flex;
     align-items: center;
     height: 100%;
-    color: #d36833;
+    color: #fff;
 }
 li a:hover{
     background-color: #d36833;
@@ -38,7 +38,7 @@ li a:hover{
 
 .main_cta{
     width: 100%;
-    background-image: url('./img/software-developer-6521720_960_720.jpg');
+    background-image: url('./img/ingredientes.jpg');
     background-color: #2d3142;
     background-repeat: no-repeat;
     background-position: center center;
@@ -186,7 +186,7 @@ li a:hover{
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     color: #fff;
-    background-color: #d36833;
+    background-color: #453933;
     border: none;
     font-size: 0.875em;
 }

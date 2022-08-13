@@ -12,9 +12,9 @@
 	<header>
 		<nav>
 			<ul>
-				<li><a href="#" title="Home" alt="Home">Home</a></li>
-				<li><a href="#" title="Sobre" alt="Sobre">Sobre</a></li>
-				<li><a href="#" title="Contato" alt="Contato">Contato</a></li>
+				<li><a href="index.php" title="Home" alt="Home">Home</a></li>
+				<li><a href="dona_rita.php" title="Sobre" alt="Sobre">Sobre</a></li>
+				<li><a href="contato.php" title="Contato" alt="Contato">Contato</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -27,7 +27,6 @@
                         <h1>Experimente as marmitas da Dona Rita!!</h1>
                     </header>
                     <p>Deliciosas e feitas com carinho.</p>
-                    <p><a href="#" class="btn">Saiba Mais</a></p>
                 </div>
             </article>
         </div>
@@ -49,7 +48,7 @@
 			?>
 			
 		</section>
-		<!--suport -->
+
         <article class="main_suport">
             <div class="main_suport_content">
                 <header>
@@ -63,11 +62,11 @@
                 </form>
             </div>
         </article>
-        <!--3ª dobra-->
+
 	</main>
 
 	<footer>
-	<p>Desenvolvido por Wilter da Silva Ferreira</p>
+	<p><center>Desenvolvido por Wilter da Silva Ferreira</center></p>
 	</footer>
 </body>
 </html>
